@@ -10,7 +10,7 @@ import reviewRouter from "./routes/Review.router.js"
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://gameweb-frontendnew.onrender.com",
     credentials: true
 }));
 
