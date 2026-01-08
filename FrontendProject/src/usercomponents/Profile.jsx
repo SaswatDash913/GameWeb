@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import '../style/profile.css'
+import '../style/Profile.css'
 import ClipLoader from 'react-spinners/ClipLoader';
 const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1/user"; 
 
