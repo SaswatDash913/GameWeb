@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../style/Payment.css'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-const BASE_URL = "http://localhost:8080/api/ver1";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1";
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 

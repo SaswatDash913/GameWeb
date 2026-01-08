@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/ver1";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1";
 
 const useFetchGames = () => {
     const [games, setGames] = useState([]);

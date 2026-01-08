@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import '../style/profile.css'
 import ClipLoader from 'react-spinners/ClipLoader';
-const BASE_URL = "http://localhost:8080/api/ver1/user"; 
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1/user"; 
 
 export default function Profile() {
     const [Nusername,setusername] = useState("")

@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import '../style/Admin.css'
 
-const BASE_URL = "http://localhost:8080/api/ver1/admin";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1/admin";
 
 export default function Admin() {
     const [AdminformData, setAdminFormData] = useState({ AdminUser: "", AdminEmail: "", AdminPassword: "" });

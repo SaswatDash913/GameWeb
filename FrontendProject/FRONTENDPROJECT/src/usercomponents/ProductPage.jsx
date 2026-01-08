@@ -7,7 +7,7 @@ import "../style/ProductPage.css";
 import ClipLoader from "react-spinners/ClipLoader";
 
 
-const BASE_URL = "http://localhost:8080/api/ver1";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1";
 const BASE_URL2 = "http://localhost:8080/api/ver1"
 
 export default function ProductPage() {

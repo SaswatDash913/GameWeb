@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const BASE_URL = "http://localhost:8080/api/ver1/game";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1/game";
 
 export default function GameUpload() {
     const [Gamedata, setGamedata] = useState({

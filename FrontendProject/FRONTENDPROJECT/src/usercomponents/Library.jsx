@@ -5,7 +5,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
-const BASE_URL = "http://localhost:8080/api/ver1"; 
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1"; 
 
 export default function Library() {
   const allGames = useLibrary();

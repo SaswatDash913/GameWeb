@@ -4,7 +4,7 @@ import { useEffect,useState } from 'react'
 import '../style/Review.css'
 import { useParams } from 'react-router-dom';
 
-const BASE_URL = "http://localhost:8080/api/ver1";
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1";
 
 
 function Review() {

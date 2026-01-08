@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../style/Navbar.css';
 import { useNavigate } from 'react-router-dom';
 
-const BASE_URL = "http://localhost:8080/api/ver1/user"; 
+const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1/user"; 
 
 export default function Navbar() {
     const [user, setUser] = useState(null);
