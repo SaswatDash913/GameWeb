@@ -1,0 +1,82 @@
+
+.main-admin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+.main-admin-credentials {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-admin {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.input-admin-username,
+.input-admin-Email,
+.input-admin-password {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+
+.input-admin-username:focus,
+.input-admin-Email:focus,
+.input-admin-password:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.button-submit-admindata {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+
+.button-submit-admindata:hover {
+    background-color: #0056b3;
+}
+
+
+body{
+    background-color:black;
+}
+
+@media (max-width: 400px) {
+    .main-admin-credentials {
+        width: 90%;
+    }
+}

@@ -1,0 +1,106 @@
+.sidebar
+{
+    border: 2px solid black;
+    background: #333;
+    color: white;
+    width: 300px;
+    height: 400px;
+    display: grid;
+    position: relative;
+    right: 31%;
+}
+
+.genre-btn
+{
+    background: #333;
+    color: lightblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.genre-btn:hover {
+    background:light blue;
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(255, 76, 76, 0.8);
+    border-color:lightblue;
+}
+
+.carousel
+{
+    border: 2px solid black;
+    height: 300px;
+    position: absolute;
+    width: 61%;
+    bottom: 45%;
+    left: 30%;
+}
+
+.main-page {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background: #222;
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-section-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.game-page {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game-page:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.gameimage {
+    width: 200px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.footer {
+    width: 100%;
+    background: #222;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.carausal-video
+{
+    height:100%;
+    width:100%;
+}

@@ -1,0 +1,129 @@
+.store-main {
+    background-color: #121212; 
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #e0e0e0; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .store-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .store-inner > div {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .store-inner > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  }
+  
+  .purchasedGames-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .download-button {
+    margin-top: 10px;
+    background-color: #2979ff;
+    color: #ffffff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .review-button {
+    margin-top: 10px;
+    background-color: #2979ff;
+    color: #ffffff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .review-button:hover{
+    background-color: #1565c0;
+  }
+
+.popup-overlay {
+    border: 5px solid grey;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    background-color: #002f7d;
+}
+
+.popup-box {
+  
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heading-review{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.review-input{  
+  width: 500px;
+  height: 200px;
+}
+
+.popup-actions
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-submit-btn{
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #71b939;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  color: papayawhip;
+  transition: background-color 0.3s ease;
+}
+
+.review-cancel-btn{
+  width: 100px;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: indianred;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
