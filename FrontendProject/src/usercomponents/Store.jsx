@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import '../style/store.css'
+import '../style/Store.css'
 
 const BASE_URL = "https://gameweb-backend-tx4t.onrender.com/api/ver1";
 

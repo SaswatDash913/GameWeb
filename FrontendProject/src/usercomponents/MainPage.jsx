@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/MainPage.css'
-import '../style/MainPage.css'
 import Navbar from './Navbar';
 import { useNavigate } from 'react-router-dom';
 import useFetchGames from '../hooks/useFetchGames';
